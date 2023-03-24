@@ -1,6 +1,6 @@
 +++
-title = "List of info pages"
+title = "List of blog posts"
 sort_by = "weight"
-template = "info.html"
+template = "index.html"
 page_template = "blog-page.html"
 +++

@@ -4,4 +4,10 @@
 <h1 class="title">
   Hello! This site is a work in progress. Contribute at <a href="https://github.com/randomairborne/NewToDiscord">randomairborne/NewToDiscord</a>
 </h1>
+<ul>
+  <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->
+  {% for page in section.pages %}
+  <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+  {% endfor %}
+</ul>
 {% endblock content %}
